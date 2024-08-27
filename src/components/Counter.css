@@ -1,0 +1,26 @@
+.counter-container {
+  height: 5vh;
+  width: 15vw;
+  background-color: rgb(246, 246, 246);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+span {
+  background-color: rgb(251, 251, 251);
+  font-size: 2rem;
+  user-select: none;
+}
+
+.plus,
+.minus {
+  cursor: pointer;
+}
+
+button {
+  background-color: chartreuse;
+  position: relative;
+  left: 37%;
+  margin: 10px;
+}
